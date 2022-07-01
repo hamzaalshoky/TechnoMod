@@ -16,7 +16,7 @@ public class ModEntityTypes {
 
     public static final RegistryObject<EntityType<TechnoEntity>> TECHNO = ENTITY_TYPES.register("techno",
             () -> EntityType.Builder.of(TechnoEntity::new, MobCategory.CREATURE)
-                    .sized(0.9f, 1.5f)
+                    .sized(1f, 2f)
                     .build(new ResourceLocation(TechnoMemorialMod.MOD_ID, "techno").toString()));
 
 
